@@ -1,0 +1,6 @@
+<view style=" width:330px;height:320px;">
+	<canvas canvas-id="shareCanvas" style=" width:200px;height:300px; "></canvas>
+</view>
+
+<button bindtap="getimg">保存图片</button>
+<image style="display: block; width: 84rpx; height: 112rpx; margin: 100rpx auto;" src="{{img}}"></image>

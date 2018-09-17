@@ -1,0 +1,11 @@
+<swiper class="banner" indicator-active-color="#000000" indicator-dots="true" indicator-color="rgba(0,0,0,.4)" autoplay="true" circular="true">
+	<block  wx:for="{{banner}}" wx:key="key">
+		<swiper-item>
+			<view bindtap="imgYu" data-yu="{{banner}}" data-src="{{item}}" style="background-image:url({{item}})"></view>
+		</swiper-item>	
+	</block>
+		<swiper-item>
+			<view style="background-image:url(https://dt2.huanqiushengao.cn/static/uploads/20180917/9ff1cc2944bb689bcb1f31ad1d074df2.jpg)"></view>
+		</swiper-item>	
+</swiper>
+   

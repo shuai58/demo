@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/quan/quan",
+    "pages/market/market",
+    "pages/my/my",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+  	"selectedColor":"#ff3131",
+  	"backgroundColor":"#ffffff",
+  	"borderStyle":"white",
+  	"color":"#909090",
+    "list": [{
+    	"iconPath":"img/nav1.png",
+    	"selectedIconPath":"img/navend1.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+    	"iconPath":"img/nav2.png",
+    	"selectedIconPath":"img/navend2.png",
+      "pagePath": "pages/quan/quan",
+      "text": "手艺圈"
+    },{
+    	"iconPath":"img/nav3.png",
+    	"selectedIconPath":"img/navend3.png",
+      "pagePath": "pages/market/market",
+      "text": "手艺集市"
+    },{
+    	"iconPath":"img/nav4.png",
+    	"selectedIconPath":"img/navend4.png",
+      "pagePath": "pages/my/my",
+      "text": "我的"
+    }]
+  }
+}
